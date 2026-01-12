@@ -1,0 +1,20 @@
+* {
+  background-color: green;
+  color: white;
+}
+
+.container {
+  border: 2px solid blue;
+  padding: 20px;
+  text-align: justify;
+}
+.container > h1 {
+  text-align: center;
+  text-decoration: underline;
+}
+.container > h1:hover {
+  font-size: 50px;
+  color: red;
+}
+.container > p {
+}

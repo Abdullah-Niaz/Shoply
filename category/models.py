@@ -18,4 +18,3 @@ class Category(models.Model):
         print("DEBUG __str__ CALLED")
         print("TYPE:", type(self.category_name))
         return self.category_name
-
